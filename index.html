@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion de Matériel</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="login-box">
+
+    <h1>Gestion de Matériel</h1>
+
+    <form action="login.php" method="POST">
+
+        <label>ID Employé</label>
+        <input type="number" name="id" required>
+
+        <label>Mot de passe</label>
+        <input type="password" name="password" required>
+
+        <label>Fonction</label>
+
+        <select name="fonction">
+
+            <option value="Agent">Agent</option>
+
+            <option value="Responsable Technique">
+                Responsable Technique
+            </option>
+
+            <option value="Technicien">
+                Technicien
+            </option>
+
+        </select>
+
+        <input type="submit" value="Se connecter">
+
+    </form>
+
+</div>
+
+</body>
+</html>
